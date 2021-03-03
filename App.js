@@ -9,6 +9,10 @@ import BaiTapChonXe from './StateReact/BaiTapChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
 import BaiTapRender  from './RenderWithMap/BaiTapRender';
 import DemoProps from './Props/DemoProps'
+import DemoQLSP from './Props/DemoQLSP/DemoQLSP';
+// import moduleName from './DemoRedux/BTGioHangRedux'
+import BTGioHangRedux from './DemoRedux/BTGioHangRedux/BTGioHangRedux';
+import BTXucXac from './DemoRedux/BTGioHangRedux/BTGameXucXac/BTXucXac';
 
 function App() {
   return (
@@ -20,9 +24,10 @@ function App() {
       {/* <BaiTapChonXe/> */}
       {/* <RenderWithMap/> */}
       {/* <BaiTapRender/> */}
-      <DemoProps/>
-
-        
+      {/* <DemoProps/> */}
+      {/* <DemoQLSP/> */}
+      {/* <BTGioHangRedux /> */}
+      <BTXucXac/>
     </div>
   );
 }
