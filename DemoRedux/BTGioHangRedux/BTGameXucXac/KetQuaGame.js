@@ -14,7 +14,7 @@ import {connect} from 'react-redux'
                     Win Game: <span className="text-success">{stateGame.winGame}</span>
                 </div>
                 <div className="display-4">
-                    Rounds : <span className="text-success">{stateGame.rounds}</span>
+                    Rouns : <span className="text-success">{stateGame.rounds}</span>
                 </div>
                 <div className="display-4">
                     <button onClick={()=>{
